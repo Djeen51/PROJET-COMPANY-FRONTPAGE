@@ -1,0 +1,139 @@
+html {
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: white;
+    padding: 1rem;
+  
+
+
+}
+
+.company {
+    text-align: center;
+    top: 2rem;
+    font-size: 2.8rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.banner {
+    background-image: url('media/peter-herrmann-trK4_YbLvYk-unsplash\ \(1\).jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.center {
+
+    background-color: white;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: black;
+
+}
+
+.center h2 {
+    padding: 10px;
+    font-size: 2rem;
+
+}
+.center h3 {
+    padding: 10px;
+}
+
+.main {
+    min-height: 500px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.flexmobility {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+ 
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+   
+}
+
+.image-container img {
+    padding: 1.5rem;
+    width: 200px;
+}
+
+.image-container h2 {
+    text-align: center;
+    min-width: 240px;
+    font-weight: bold;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.images-team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(media/peter-herrmann-trK4_YbLvYk-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.employe {
+    width: 250px;
+    padding: 1.5rem;
+}
+
+.images-team img {
+    width: 200px;
+}
+
+footer {
+    padding: 2rem;
+    line-height: 2;
+    font-size: 1.5rem ;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
